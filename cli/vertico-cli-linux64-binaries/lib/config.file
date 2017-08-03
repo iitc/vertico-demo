@@ -1,0 +1,6 @@
+vf.endpoint.register=http://localhost:6765/verticofactory/rest/v2/entities/vertico$Donors
+volounteer.app.lock=lib/app-lock.json
+volounteer.apps.data=lib/app-data.json
+vf.endpoint.validateAPIKey = http://localhost:6765/verticofactory/rest/v2/queries/vertico$Donors/getUserInfo
+vf.endpoint.registerInstance = http://localhost:6765/verticofactory/rest/v2/entities/vertico$Instance
+vf.endpoint.myapps=http://localhost:6765/verticofactory/rest/v2/queries/vertico$Applications/list?instanceID=

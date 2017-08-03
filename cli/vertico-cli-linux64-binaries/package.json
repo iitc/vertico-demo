@@ -1,0 +1,46 @@
+{
+  "name": "vertico-cli",
+  "version": "0.0.1",
+  "description": "Vertico Command line tools",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vertico": "./lib/main.js"
+  },
+  "keywords": [
+    "Vertico",
+    "Cli"
+  ],
+  "author": "Ajay Ramesh",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.10.0",
+    "external-ip": "^1.3.1",
+    "ip": "^1.1.5",
+    "json-beautify": "^1.0.1",
+    "properties-reader": "0.0.15",
+    "random-item": "^1.0.0",
+    "request": "^2.81.0",
+    "request-progress": "^3.0.0",
+    "superagent": "^3.5.2",
+    "systeminformation": "^3.23.5",
+    "unique-random": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iitc/vertico-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iitc/vertico-cli/issues"
+  },
+  "homepage": "https://github.com/iitc/vertico-cli#readme"
+}
